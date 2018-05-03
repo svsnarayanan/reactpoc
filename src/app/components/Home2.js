@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from 'prop-types'
 export class Home2 extends React.Component {
 	constructor(props){
+		console.log("props value" + props);
 		super();
 		this.state={
 			age : props.age,
