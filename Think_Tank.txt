@@ -1,0 +1,82 @@
+Redux (its a state management tools for JS applications) 
+
+- Store (Reducer, State)
+- Reducer (state, action)
+- Subscribe
+- Dispatch
+
+- Main objective of redux is to store the entire state of an application in one common store
+- avoid props to child components
+
+===================================================================================================================
+
+Babel - transpiler from ES-6 to es-5 
+
+===================================================================================================================
+
+
+React Initial Set-up :: 
+
+1) npm init
+2) npm install react react-dom --save
+3) sudo npm install webpack  webpack-dev-server babel-loader babel-preset-es2015 babel-preset-react babel-preset-stage-2 --save-dev
+4) npm start
+5) npm install webpack-cli --save-dev
+6) npm i prop-types --save(to define the data types)
+Make sure in web-pack config, module --> rules instead of defining module --> loader
+7) npm install --save react-router (to install react router)
+8) npm install react-router@3.0.5 (For downloading the exact react router, was gettting exceptions)
+
+===================================================================================================================
+
+
+Lifecycle of components
+
+1) ComponentwillMount - Immediately before initial rendering
+2) ComponentdidMount - Immediately after initial rendering
+3) Componentwillreceiveprops - When component receives new props
+4) shouldComponentUpdate = Before rendering, after receiving new props or state
+5) componentwillUpdate - Before rendering, after receiving new props or state
+6) componentdidUpdate - After components updates are flushed into DOM 
+7) componentwillUnmount - Immediately before removing component from DOM
+
+===================================================================================================================
+ 
+
+
+
+git ignore file  ::
+
+/node_modules
+/dist
+/.idea
+/npm-debug.log
+
+
+- 
+
+Git commands
+Go to the folder 
+git init
+git add .
+git commit -m "comments"
+git push -u origin master
+
+===================================================================================================================
+
+Things to learn ::
+
+- promise
+- recursions
+- Closures
+- array
+- string manipulation
+- loop array using map, filter, sort
+- JSON
+- Loop through 3 level nested json object
+- Data structure concepts
+- Event bubbling, how to handle?
+- React Material UI
+- React Redux
+
+	
